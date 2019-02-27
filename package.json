@@ -1,0 +1,20 @@
+{
+  "name": "weather-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/username1001/weather-cli.git"
+  },
+  "keywords": [],
+  "author": "Matt Fay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/username1001/weather-cli/issues"
+  },
+  "homepage": "https://github.com/username1001/weather-cli#readme"
+}
