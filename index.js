@@ -24,8 +24,8 @@ prompt('Enter a location or a postal code: ', function(location) {
   axios
     .get(`${BASE_PATH}?q=${location}&units=imperial&appid=${API_KEY}`)
     .then(response => {
-      let weather = response;
-      let message = `\nCurrent date and time: ${weather.headers.date}\nIt's ${
+      const weather = response;
+      const message = `\nCurrent date and time: ${weather.headers.date}\nIt's ${
         weather.data.main.temp
       } degrees in ${location}.`;
 
