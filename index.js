@@ -33,7 +33,7 @@ prompt('Enter a location or a postal code: ', function(location) {
       process.exit();
     })
     .catch(err => {
-      console.log(err);
+      console.log(`Error: ${err.response.data.message}`);
       process.exit();
     });
 });
