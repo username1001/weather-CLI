@@ -32,5 +32,8 @@ prompt('Enter a location or a postal code: ', function(location) {
       console.log(message);
       process.exit();
     })
-    .catch(err => console.log(err));
+    .catch(err => {
+      console.log(err);
+      process.exit();
+    });
 });
