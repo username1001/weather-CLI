@@ -1,6 +1,7 @@
 const axios = require('axios');
 
-const apiKey = 'b70868fc7f9c4e39edd8956e520ef4b5';
+const BASE_PATH = 'http://api.openweathermap.org/data/2.5/weather';
+const API_KEY = 'b70868fc7f9c4e39edd8956e520ef4b5';
 
 const prompt = (message, callback) => {
   const stdin = process.stdin;
@@ -21,9 +22,7 @@ prompt('Enter a location or a postal code: ', function(location) {
   }
 
   axios
-    .get(
-      `http://api.openweathermap.org/data/2.5/weather?q=${location}&units=imperial&appid=${apiKey}`
-    )
+    .get(`${BASE_PATH}?q=${location}&units=imperial&appid=${API_KEY}`)
     .then(res => {
       let weather = res;
       let message = `\nCurrent date and time: ${weather.headers.date}\nIt's ${
