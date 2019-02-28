@@ -10,4 +10,4 @@ I looked at Typescript before, it's been on a list of technologies to learn more
 
 ## Setting up
 
-After cloning, run `npm install`. Then run `node index.js`, entering the desired postal code or city.
+After cloning, run `npm install`. Then run `node index.js`, entering the desired postal code or city. **Note**: You can also run the shell script provided to automate the above. Run `make weather`, then to execute `./weather`.
