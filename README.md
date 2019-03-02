@@ -7,5 +7,3 @@ Get the weather from the command line.
 ## Setting up
 
 After cloning, run `npm install`. Then run `node index.js`, entering the desired postal code or city.
-
-**Note**: You can also run the shell script provided to automate the above. Run `make weather`, then to execute `./weather`.
