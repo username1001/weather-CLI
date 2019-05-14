@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const axios = require('axios');
 
 const BASE_PATH = 'http://api.openweathermap.org/data/2.5/weather';

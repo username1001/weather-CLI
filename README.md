@@ -7,3 +7,5 @@ Get the weather from the command line.
 ## Setting up
 
 After cloning, run `npm install`. Then run `node index.js`, entering the desired postal code or city.
+
+If on a unix-like system, you can run `chmod +x index.js` to make the file executable by typing `./index.js`, rather than calling node each time.You can still call node, though.
